@@ -8,5 +8,9 @@
 const arrayNum = [];
 for (let i = 0; i < 5; i++) {
     arrayNum.push(randomNumber(1, 100));
+    let outputNumbers = document.getElementById('text');
+    outputNumbers = arrayNum;
+
 }
+
 console.log('Siamo i numeri random', arrayNum);
